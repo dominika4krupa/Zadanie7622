@@ -1,37 +1,64 @@
 form {background-color: darkseagreen;
-      width: 97%;
-      margin-left: 1.5%;
-      
+      width: 75%;
+      margin-left: 1.5%;   
+           
+}
+* {box-sizing: border-box;
+
 }
 
-
 #heading1 {font-size: 25px;
-    color: darkgreen;    
+    color: darkgreen;  
+    padding-top: 3px;
+    padding-left: 5px;
+    margin-bottom: 3px;
+
 }
 
 #heading2 {font-size: 18px;
            font-style: italic;
            color: green;
-
+           margin-bottom: 2px;
+           margin-top: 3px;
+           padding-left: 5px;
+           margin-right: 5px;
+           
+}
+.fieldset {margin-left: 5px;
+        margin-right: 5px;
 }
 
+label {
+    margin-left: 50px;
+}
+   
+input[type="text"] {
+    width: 50%;
+    margin-bottom: 10px;
+}
+input[type="tel"] {
+    width: 50%;
+    margin-bottom: 10px;
+}
 
-input {display: block;
-       margin-bottom: 10px;
-       width: 50%;
+input[type="email"] {
+    width: 50%;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+input[list="books"]{
+    margin-left: 50px;
+    width: 50%;
     
 }
-   <form action="" method="post">
-   
-   <h1 id="heading1">A Simple Form</h1>
-   <h2 id="heading2">Form Fundamentals</h2>
-   
-  <section class="section">Customer Info</section>
-  
-  <section class="section">Books</section>
-   inpu;
+label[for="quantity"] {
+    margin-left: 5px;
+}
 
 
-  </form>
-   
+      
+       
     
